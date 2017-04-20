@@ -1,0 +1,13 @@
+<p >
+  <button [disabled]="!isServerDisabled" class="btn btn-primary">Add server</button>
+{{serverCreatedMessage}}
+<a href="#" (click)="onServerCreated()" class="btn btn-success">Create</a>
+<input type="text" class="form-control" [(ngModel)]="serverCreatedMessage">
+
+
+<app-server></app-server>
+<app-server></app-server>
+</p>
+<app-server></app-server>
+<app-user></app-user>
+<app-employee></app-employee>
